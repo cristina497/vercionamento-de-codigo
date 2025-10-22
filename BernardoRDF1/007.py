@@ -1,5 +1,15 @@
-nome = input("Digite uma cidade : ")
-lista = []
-for lista in  nome:
-    lista.append(nome)
-print("cidadedes informadas: ",lista ) 
+
+
+cidades = []
+while True:
+    nome = input(f"Digite o nome da  cidade(Ou digite sair para encerrar): ")
+    if nome.lower() == "sair":
+        break
+    cidades.append(nome)
+    
+    print("lista atualizada de cidades:",cidades ) 
+
+
+
+
+
